@@ -12,11 +12,11 @@ All images and data are stored in a MongoDB database and retreived using a NodeJ
 https://digital-sketchbook.glitch.me/
 
 ## Technologies
-Front-end
+**Front-end**
 - Bootstrap
 - JavaScript ES6
 - HTML/CSS
-Back-end
+**Back-end**
 - NodeJS
 - Express
 - MongoDB (Mongoose)
