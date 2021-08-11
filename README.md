@@ -5,6 +5,10 @@ A digital sketchbook to host my attempts at learning to draw figures, portraits,
 
 All images and data are stored in a MongoDB database and retreived using a NodeJS/Express API on the server-side.
 
+**Link to website**
+Note: I'm using free hosting and database services so that's why it takes a while on the initial load-up.
+https://digital-sketchbook.glitch.me/
+
 **Technologies** 
 Front-end
 - Bootstrap
