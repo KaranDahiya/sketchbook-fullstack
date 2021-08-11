@@ -1,0 +1,104 @@
+html, body {
+    height: 100%;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.container-fluid {
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+.navbar-brand, .card-title, .card-text, .spinnerText, #wait {
+    font-family: 'Cardo', serif;
+    letter-spacing: 0.05em;
+}
+
+.dropdown-menu {
+    border: none;
+    padding-top: 0;
+    margin-top: 0;
+}
+
+.nav-link, .dropdown-item, p {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+a {
+    color: inherit;
+}
+
+.card {
+    background-color: #fff;
+    padding: 2% 8%;
+    border: none;
+    border-radius: 0;
+    border-bottom: solid;
+    border-width: 1px;
+    border-color: lightgray;
+}
+
+.card-header {
+    background: none;
+}
+
+.card-img {
+    border-radius: 0;
+    transition: all 0.2s ease;
+}
+
+.card-img:hover {
+    box-shadow: 0 10px 25px -1px gray;
+    transform: translateY(-15px);
+}
+
+.card-header, .card-body {
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.05);
+    padding: 1%;
+    bottom: 0;
+    width: 100%;
+}
+
+#modalImage {
+    width: 100%;
+    display: block;
+    margin: auto;
+}
+
+#loginResult {
+    visibility: hidden;
+}
+
+#previewImg {
+    visibility: hidden;
+}
+
+.loader {
+    display: none;
+}
+
+#wait {
+    text-align: center;
+    font-size: 24px;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (max-width: 576px) {
+    .spacer, .spacerSecondary {
+        max-height: 100px;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (max-width: 768px) {
+    .spacer {
+        max-height: 100px;
+    }
+}
