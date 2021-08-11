@@ -59,7 +59,7 @@ app.post('/login', async (request, response) => {
 
 app.post('/upload', async (request, response) => {
     if (!isUserLoggedIn) {
-        response.status(401).end('Unlogged user is not authorized to save artwork');
+        response.status(401).end('Failed: Unlogged user is not authorized to save artwork');
         return;
     }
     try {
