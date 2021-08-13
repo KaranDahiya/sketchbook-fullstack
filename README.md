@@ -3,7 +3,7 @@
 
 A digital sketchbook to host my attempts at learning to draw figures, portraits, and little doodles here and there as a break from my studies.
 
-All images and data are stored in a MongoDB database and retreived using a NodeJS/Express API on the server-side.
+All images and data are stored in a MongoDB database and retreived using a NodeJS/Express API on the server-side. I implemented encrypted login authentication using the bcrypt library and stored login details in a MongoDB database as well.
 
 ## Link to website
 
