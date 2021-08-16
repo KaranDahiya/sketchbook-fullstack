@@ -9,7 +9,7 @@ All images and data are stored in a MongoDB database and retreived using a NodeJ
 
 **Note:** I'm using free hosting and database services so things may take quite a while to load-up. MongoDB deactivates a database if no request is made for 7 days. In this case it will take a while for the website to load. If you just want to see what the site looks like, click on the second link which will load-up the front-end as it does not use Node.js or MongoDB.
 
-https://digital-sketchbook.glitch.me/ -- may be very slow, but has full user-authentication and database functionality (because I'm using free services)
+https://digital-sketchbook.glitch.me/ -- may take a couple minutes to load up, but has full user-authentication and database functionality (because I'm using free services)
 
 https://karandahiya.github.io/sketchbook/ -- quick load-up, but has only front-end functionality to show existing artwork
 
